@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Page</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>🧠 Interactive Web Page</h1>
+
+    <!-- Part 1: Event Handling -->
+    <section>
+      <h2>🎉 Event Handling Demo</h2>
+      <button id="messageBtn">Click Me</button>
+      <p id="message"></p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section>
+      <h2>🎮 Interactive Elements</h2>
+
+      <!-- Dark Mode Toggle -->
+      <button id="toggleMode">🌙 Toggle Dark Mode</button>
+
+      <!-- Counter -->
+      <div class="counter">
+        <button id="decrease">➖</button>
+        <span id="count">0</span>
+        <button id="increase">➕</button>
+      </div>
+
+      <!-- FAQ -->
+      <div class="faq">
+        <h3 class="faq-question">What is JavaScript? <span>+</span></h3>
+        <p class="faq-answer">JavaScript makes web pages interactive.</p>
+      </div>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section>
+      <h2>📋 Form Validation</h2>
+      <form id="signupForm">
+        <label>
+          Name: <input type="text" id="name" />
+          <span class="error" id="nameError"></span> </label
+        ><br /><br />
+        <label>
+          Email: <input type="text" id="email" />
+          <span class="error" id="emailError"></span> </label
+        ><br /><br />
+        <label>
+          Password: <input type="password" id="password" />
+          <span class="error" id="passwordError"></span> </label
+        ><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formSuccess"></p>
+    </section>
+  </body>
+</html>
